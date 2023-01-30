@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: hsla(0deg, 0%, 100%, 0.6);
+}
+
+.gotcha {
+  height: 100vh;
+  background-color: hsl(233deg, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 1120px;
+  height: 450px;
+  background-color: hsl(244deg, 38%, 16%);
+  border-radius: 8px;
+  display: flex;
+}
+
+.content {
+  padding: 6%;
+  width: 50%;
+}
+.content h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.content h1 span {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: hsl(277deg, 64%, 61%);
+}
+.content .mcont {
+  margin: 30px 35px 18% 0;
+  line-height: 1.6;
+}
+
+.mom {
+  gap: 0 14%;
+  display: flex;
+}
+.mom .num {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.mom .bum {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.image {
+  z-index: 3;
+  border-radius: 0 8px 8px 0;
+  background-image: url(/images/image-header-desktop.jpg);
+  background-size: cover;
+  width: 50%;
+}
+.image .coled {
+  background-color: hsl(277deg, 64%, 61%);
+  border-radius: inherit;
+  opacity: 0.6;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+}
+
+.attribution {
+  margin-top: 50px;
+  font-size: 10px;
+  color: #fff;
+}
+.attribution a {
+  color: #fff;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1380px) {
+  .container {
+    width: 77.8%;
+    height: 450px;
+  }
+  .content .mcont {
+    margin: 30px 35px 8% 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gotcha {
+    height: 956px;
+  }
+  .container {
+    width: 87%;
+    height: 750px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .content {
+    padding: 12% 6% 3px;
+    height: 70%;
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 2rem;
+  }
+  .content h1 span {
+    font-size: 2rem;
+  }
+  .content .mcont {
+    margin: 15px 8px 15%;
+  }
+  .mom {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0;
+  }
+  .mom .num {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+  }
+  .image {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 30%;
+    background-image: url(/images/image-header-mobile.jpg);
+  }
+}/*# sourceMappingURL=main.css.map */
