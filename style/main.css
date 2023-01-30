@@ -72,9 +72,8 @@ p {
   width: 50%;
 }
 .image .coled {
-  background-color: hsl(277deg, 64%, 61%);
+  background-color: hsla(277, 76%, 30%, 0.5);
   border-radius: inherit;
-  opacity: 0.6;
   z-index: 4;
   width: 100%;
   height: 100%;
